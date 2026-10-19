@@ -19,10 +19,7 @@ struct ContentView: View {
                     totalClicks += 1
                 } label: {
                     VStack(spacing: 8) {
-                        Image(systemName: "circle.dashed")
-                            .font(.largeTitle)
-
-                        Text("Do Nothing")
+                        Text("press me")
                             .font(.headline)
                     }
                     .foregroundStyle(.white)
